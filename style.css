@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction:row; /* Align buttons vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Make container full height of the viewport */
+  }
+  
+  .btn {
+    margin: 10px; /* Add some space between buttons */
+  }
+
+.h1-style{
+    text-align: center;
+    margin-top: 70px;
+}
+
